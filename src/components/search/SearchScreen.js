@@ -43,7 +43,7 @@ export const SearchScreen = ({history}) => {
 
             <button
               type="submit"
-              className="btn m-1 btn-block btn-outline-primary"
+              className="btn mt-3 btn-block btn-outline-primary"
             >
               Search...
             </button>
