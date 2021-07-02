@@ -7,7 +7,6 @@ import {LoginScreen} from '../components/login/LoginScreen'
 import {DashboardRoutes} from './DashboardRoutes'
 export function AppRouter() {
   const {user} = useContext(AuthContext)
-  console.log(user)
   return (
     <Router>
       <div>
